@@ -3,13 +3,13 @@ package mangueira.ecp;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        /*
-        String input = "8+5-7";
+        
+        String input = "89+508-7+99";
         Parser p = new Parser (input.getBytes());
         p.parse();
-        */
         
         
+        /*
         String input = "289-85+0+69";
         Scanner scan = new Scanner (input.getBytes());
         System.out.println(scan.nextToken());
@@ -19,6 +19,6 @@ public class Main {
         System.out.println(scan.nextToken());
         System.out.println(scan.nextToken());
         System.out.println(scan.nextToken());
-        
+        */
     }
 }
