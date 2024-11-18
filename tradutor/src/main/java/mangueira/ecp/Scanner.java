@@ -75,6 +75,15 @@ public class Scanner {
             return number();
             
         switch (ch) {
+            
+            case '=':
+                advance();
+                return new Token (TokenType.EQ,"=");
+            
+            case ';':
+                advance();
+                return new Token (TokenType.SEMICOLON,";");
+            
             case '+':
                 advance();
                 return new Token (TokenType.PLUS,"+");

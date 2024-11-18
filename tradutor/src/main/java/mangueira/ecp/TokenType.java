@@ -1,7 +1,7 @@
 package mangueira.ecp;
 
 public enum TokenType {
-    PLUS,MINUS,
+    PLUS,MINUS, EQ, SEMICOLON,
 
     IDENT,
      // Literals.
